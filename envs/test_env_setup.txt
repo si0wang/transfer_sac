@@ -1,7 +1,7 @@
 Things to do to run the Modified MuJoCo Environment:
 1. Go to *venv/lib/python3.7/site-packages/gym/envs/mujoco, here substitute *venv with your virtual environment address, and switch to the 
 correct python version that you used in your environment (I used python3.7). 
-2. Copy half_cheetah_v3_test.py file from tranfer_ppo/envs to the current directory
+2. Copy half_cheetah_v3_test.py file to the current directory
 3. cd ..
 4. Open the __init__.py file, and add the following to the file:
 register(
